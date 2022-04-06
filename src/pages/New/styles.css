@@ -1,0 +1,20 @@
+/* este resize ali é para nao deixar ficar mexendo no tamanho do memo */
+form textarea {
+    height: 105px;
+    resize: none;
+}
+
+/* estila apenas os que tem o tipo radio */
+form input[type="radio"] {
+    margin: 15px 0;
+}
+
+/* Esse not que dizer que aplica o estilo menos dno primeiro filho */
+form input[type="radio"]:not(:first-child) {
+    margin-left: 15px;
+} 
+
+.status span {
+    padding-left: .5em;
+    font-size: 1.3em;
+}

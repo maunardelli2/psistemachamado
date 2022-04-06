@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/*Vai tentar usar a fonte Roboto mas se nao conseguir irá usar o sans-serif*/
+body{
+  font: 14px 'Roboto', sans-serif;
+  background-color: #EFEFEF;
+}
+
+/*Tudo que é tag a nao tera aquele sublinhado*/
+a {
+  text-decoration: none;
+}
+
+/* Aquelas bolinhas da lista */
+ul {
+  list-style: none;
+}
+
+/* Toda vez que passar o mouse vai ficar aquela maozinha */
+button {
+  cursor: pointer;
+}
